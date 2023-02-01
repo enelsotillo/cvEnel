@@ -1,5 +1,5 @@
 const btn = document.getElementById('button'); /* se captura el elemento submit */
-
+/* optiene los elemento form */
 document.getElementById('form')
  .addEventListener('submit', function(event) {
    event.preventDefault();
